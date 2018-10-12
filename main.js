@@ -1,10 +1,9 @@
-const bandNumber = 1
+let bandNumber = 1
 
-const takeNumber = function () {
-    /*
-        Write your awesome code here. See comments
-        below for what should be returned.
-    */
+const takeNumber = function (bandName) {
+   bandNumber += 1;
+   let num = `${bandNumber}. ${bandName}`;
+   return num;
 }
 
 const scum = takeNumber("Galactic Scum")
